@@ -8,7 +8,7 @@ $(function() {
 
   $('#change-text').on({
     'click': () => {
-      $('p').text('Hello!');
+      $('#target').text('Hello!');
     },
   });
 
